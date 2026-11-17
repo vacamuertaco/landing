@@ -69,7 +69,7 @@ export const COPY: Record<Lang, Copy> = {
   },
   en: {
     htmlTitle: "vacamuerta.co — Launch",
-    kicker: "Launching · November 2026",
+    kicker: "Coming soon",
     titleBefore: "The ",
     titleHighlight: "opportunity",
     titleAfter: " hub of Vaca Muerta",

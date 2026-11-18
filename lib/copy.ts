@@ -32,7 +32,9 @@ export type Copy = {
   errorServer: string;
   homeLabel: string;
   mapAlt: string;
-  legal: string;
+  legalBefore: string;
+  legalLink: string;
+  legalAfter: string;
   otherLangLabel: string;
 };
 
@@ -64,7 +66,9 @@ export const COPY: Record<Lang, Copy> = {
     homeLabel: "vacamuerta.co, inicio",
     mapAlt:
       "Mapa de Argentina con la formación Vaca Muerta resaltada en amarillo, en Neuquén, y su detalle ampliado sobre el Atlántico.",
-    legal: "© 2026 Dibrand LLC. Todos los derechos reservados.",
+    legalBefore: "© 2026 ",
+    legalLink: "Dibrand LLC",
+    legalAfter: ". Todos los derechos reservados.",
     otherLangLabel: "English",
   },
   en: {
@@ -94,7 +98,9 @@ export const COPY: Record<Lang, Copy> = {
     homeLabel: "vacamuerta.co, home",
     mapAlt:
       "Map of Argentina with the Vaca Muerta formation highlighted in yellow, in Neuquén, and its enlarged detail over the Atlantic.",
-    legal: "© 2026 Dibrand LLC. All rights reserved.",
+    legalBefore: "© 2026 ",
+    legalLink: "Dibrand LLC",
+    legalAfter: ". All rights reserved.",
     otherLangLabel: "Español",
   },
 };

@@ -77,7 +77,13 @@ export default async function LaunchPage({
       </main>
 
       <footer className="vm-legal">
-        <p>{t.legal}</p>
+        <p>
+          {t.legalBefore}
+          <a href="https://www.dibrand.co/" target="_blank" rel="noopener">
+            {t.legalLink}
+          </a>
+          {t.legalAfter}
+        </p>
       </footer>
     </div>
   );
